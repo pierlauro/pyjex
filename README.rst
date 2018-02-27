@@ -10,6 +10,7 @@ Pyjex: PYthon → Java formatting for EXceptions
 
 A simple one-liner to format Python's stracktraces in `Java style <https://docs.oracle.com/javase/9/docs/api/java/lang/Throwable.html#printStackTrace-->`_.
 
+
 Usage
 =====
 
@@ -45,6 +46,10 @@ Example
     ZeroDivisionError: division by zero
 	at divzero(main.py:4)
 	at <module>(main.py:7)
+
+Installing
+==========
+``pip install pyjex`` - no dependencies needed.
 
 ======
 
